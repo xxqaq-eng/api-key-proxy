@@ -1,0 +1,28 @@
+target_base_url: https://token.sensenova.cn/v1
+api_keys:
+- sk-aBOZQ6XoHBRVlaLTLLc76fVCTMQM5fTR
+- sk-DvDlExL9ZDAlErGxk7Nn449kAjbZdY9S
+- sk-FBrwaHuR9hitBqWdsVVX8WsNcd1NUcJF
+- sk-ARviZmfIjMwXooZbaKeNpxsWyL388FPw
+- sk-uumOoHbXIaDP2E5pUbfLdVLsl7KE5sdV
+access_key: '7854074'
+rate_limit_cooldown: 60
+quota_limit_cooldown: 18000
+retry_status_codes:
+- 429
+- 500
+- 502
+- 503
+- 504
+max_retries: 3
+persist_stats: true
+persist_interval: 30
+enable_web_search: false
+web_search_results: 5
+host: 0.0.0.0
+port: 8000
+log_level: INFO
+key_remarks:
+  sk-ARviZmfIjMwXooZbaKeNpxsWyL388FPw: '1'
+    sk-aBOZQ6XoHBRVlaLTLLc76fVCTMQM5fTR: xiaoxuanquq
+    
